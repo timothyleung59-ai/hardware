@@ -1,0 +1,18 @@
+# === 系统文件 ===
+.DS_Store
+.claude/
+
+# === 第三方克隆 / 下载(可重新获取,不入库)===
+ESP32-S3-RLCD-4.2/
+*.zip
+
+# === ESP-IDF 编译产物 ===
+build/
+sdkconfig.old
+*.bin
+*.elf
+*.map
+
+# === 编辑器 ===
+.vscode/
+.idea/
